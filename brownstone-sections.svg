@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title -->
+  <text x="500" y="40" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle">NEW YORK BROWNSTONE - BUILDING SECTIONS</text>
+  
+  <!-- Legend -->
+  <rect x="50" y="70" width="20" height="20" fill="#d6d6d6" stroke="#000000" stroke-width="1"/>
+  <text x="80" y="85" font-family="Arial" font-size="14">Structure</text>
+  
+  <rect x="150" y="70" width="20" height="20" fill="#916f59" stroke="#000000" stroke-width="1"/>
+  <text x="180" y="85" font-family="Arial" font-size="14">Brownstone Facade</text>
+  
+  <rect x="320" y="70" width="20" height="20" fill="#ce9a82" stroke="#000000" stroke-width="1"/>
+  <text x="350" y="85" font-family="Arial" font-size="14">Brick</text>
+  
+  <rect x="420" y="70" width="20" height="20" fill="#a8cff0" stroke="#000000" stroke-width="1"/>
+  <text x="450" y="85" font-family="Arial" font-size="14">Windows</text>
+  
+  <rect x="550" y="70" width="20" height="20" fill="#c19a6b" stroke="#000000" stroke-width="1"/>
+  <text x="580" y="85" font-family="Arial" font-size="14">Wood</text>
+  
+  <rect x="650" y="70" width="20" height="20" fill="#788f9b" stroke="#000000" stroke-width="1"/>
+  <text x="680" y="85" font-family="Arial" font-size="14">Stone</text>
+  
+  <rect x="760" y="70" width="20" height="20" fill="#5f5f5f" stroke="#000000" stroke-width="1"/>
+  <text x="790" y="85" font-family="Arial" font-size="14">Roof/Metal</text>
+  
+  <line x1="50" y1="100" x2="950" y2="100" stroke="#000" stroke-width="2"/>
+  
+  <!-- LONGITUDINAL SECTION -->
+  <text x="500" y="130" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle">LONGITUDINAL SECTION</text>
+  
+  <!-- Building Outline -->
+  <rect x="100" y="150" width="800" height="300" fill="#d6d6d6" stroke="#000000" stroke-width="3"/>
+  
+  <!-- Floor Lines -->
+  <line x1="100" y1="210" x2="900" y2="210" stroke="#000" stroke-width="2"/>
+  <line x1="100" y1="270" x2="900" y2="270" stroke="#000" stroke-width="2"/>
+  <line x1="100" y1="330" x2="900" y2="330" stroke="#000" stroke-width="2"/>
+  <line x1="100" y1="390" x2="900" y2="390" stroke="#000" stroke-width="2"/>
+  
+  <!-- Floor Labels -->
+  <text x="70" y="190" font-family="Arial" font-size="12" text-anchor="end">Basement</text>
+  <text x="70" y="240" font-family="Arial" font-size="12" text-anchor="end">1st Floor</text>
+  <text x="70" y="300" font-family="Arial" font-size="12" text-anchor="end">2nd Floor</text>
+  <text x="70" y="360" font-family="Arial" font-size="12" text-anchor="end">3rd Floor</text>
+  <text x="70" y="420" font-family="Arial" font-size="12" text-anchor="end">4th Floor</text>
+  <text x="70" y="450" font-family="Arial" font-size="12" text-anchor="end">Roof</text>
+  
+  <!-- Front Facade (Left) -->
+  <rect x="100" y="210" width="15" height="240" fill="#916f59" stroke="#000000" stroke-width="1"/>
+  
+  <!-- Windows (Front) -->
+  <rect x="100" y="230" width="15" height="25" fill="#a8cff0" stroke="#000000" stroke-width="1"/>
+  <rect x="100" y="290" width="15" height="30" fill="#a8cff0" stroke="#000000" stroke-width="1"/>
+  <rect x="100" y="350" width="15" height="25" fill="#a8cff0" stroke="#000000" stroke-width="1"/>
+  <rect x="100" y="410" width="15" height="25" fill="#a8cff0" stroke="#000000" stroke-width="1"/>
+  
+  <!-- Stoop -->
+  <path d="M80,270 L115,240 L115,270 Z" fill="#788f9b" stroke="#000000" stroke-width="1"/>
+  <line x1="80" y1="270" x2="115" y2="240" stroke="#000" stroke-width="2"/>
+  
+  <!-- Rear Wall -->
+  <rect x="885" y="150" width="15" height="300" fill="#ce9a82" stroke="#000000" stroke-width="1"/>
+  
+  <!-- Windows (Rear) -->
+  <rect x="885" y="230" width="15" height="25" fill="#a8cff0" stroke="#000000" stroke-width="1"/>
+  <rect x="885" y="290" width="15" height="30" fill="#a8cff0" stroke="#000000" stroke-width="1"/>
+  <rect x="885" y="350" width="15" height="25" fill="#a8cff0" stroke="#000000" stroke-width="1"/>
+  <rect x="885" y="410" width="15" height="25" fill="#a8cff0" stroke="#000000" stroke-width="1"/>
+  
+  <!-- Roof Elements -->
+  <rect x="100" y="150" width="800" height="10" fill="#5f5f5f" stroke="#000000" stroke-width="1"/>
+  <rect x="120" y="145" width="100" height="15" fill="#5f5f5f" stroke="#000000" stroke-width="1"/>
+  <rect x="700" y="145" width="150" height="15" fill="#5f5f5f" stroke="#000000" stroke-width="1"/>
+  
+  <!-- Interior Walls and Features -->
+  <line x1="200" y1="150" x2="200" y2="450" stroke="#000" stroke-width="1" stroke-dasharray="5,3"/>
+  <line x1="400" y1="150" x2="400" y2="450" stroke="#000" stroke-width="1" stroke-dasharray="5,3"/>
+  <line x1="600" y1="150" x2="600" y2="450" stroke="#000" stroke-width="1" stroke-dasharray="5,3"/>
+  <line x1="800" y1="150" x2="800" y2="450" stroke="#000" stroke-width="1" stroke-dasharray="5,3"/>
+  
+  <!-- Stairs -->
+  <path d="M650,210 L700,210 L700,270 L650,270 Z" fill="none" stroke="#000000" stroke-width="1"/>
+  <line x1="650" y1="215" x2="700" y2="215" stroke="#000" stroke-width="1"/>
+  <line x1="650" y1="220" x2="700" y2="220" stroke="#000" stroke-width="1"/>
+  <line x1="650" y1="225" x2="700" y2="225" stroke="#000" stroke-width="1"/>
+  <line x1="650" y1="230" x2="700" y2="230" stroke="#000" stroke-width="1"/>
+  <line x1="650" y1="235" x2="700" y2="235" stroke="#000" stroke-width="1"/>
+  <line x1="650" y1="240" x2="700" y2="240" stroke="#000" stroke-width="1"/>
+  <line x1="650" y1="245" x2="700" y2="245" stroke="#000" stroke-width="1"/>
+  <line x1="650" y1="250" x2="700" y2="250" stroke="#000" stroke-width="1"/>
+  <line x1="650" y1="255" x2="700" y2="255" stroke="#000" stroke-width="1"/>
+  <line x1="650" y1="260" x2="700" y2="260" stroke="#000" stroke-width="1"/>
+  <line x1="650" y1="265" x2="700" y2="265" stroke="#000" stroke-width="1"/>
+  
+  <path d="M650,270 L700,270 L700,330 L650,330 Z" fill="none" stroke="#000000" stroke-width="1"/>
+  <line x1="650" y1="275" x2="700" y2="275" stroke="#000" stroke-width="1"/>
+  <line x1="650" y1="280" x2="700" y2="280" stroke="#000" stroke-width="1"/>
+  <line x1="650" y1="285" x2="700" y2="285" stroke="#000" stroke-width="1"/>
+  <line x1="650" y1="290" x2="700" y2="290" stroke="#000" stroke-width="1"/>
+  <line x1="650" y1="295" x2="700" y2="295" stroke="#000" stroke-width="1"/>
+  <line x1="650" y1="300" x2="700" y2="300" stroke="#000" stroke-width="1"/>
+  <line x1="650" y1="305" x2="700" y2="305" stroke="#000" stroke-width="1"/>
+  <line x1="650" y1="310" x2="700" y2="310" stroke="#000" stroke-width="1"/>
+  <line x1="650" y1="315" x2="700" y2="315" stroke="#000" stroke-width="1"/>
+  <line x1="650" y1="320" x2="700" y2="320" stroke="#000" stroke-width="1"/>
+  <line x1="650" y1="325" x2="700" y2="325" stroke="#000" stroke-width="1"/>
+  
+  <path d="M650,330 L700,330 L700,390 L650,390 Z" fill="none" stroke="#000000" stroke-width="1"/>
+  <line x1="650" y1="335" x2="700" y2="335" stroke="#000" stroke-width="1"/>
+  <line x1="650" y1="340" x2="700" y2="340" stroke="#000" stroke-width="1"/>
+  <line x1="650" y1="345" x2="700" y2="345" stroke="#000" stroke-width="1"/>
+  <line x1="650" y1="350" x2="700" y2="350" stroke="#000" stroke-width="1"/>
+  <line x1="650" y1="355" x2="700" y2="355" stroke="#000" stroke-width="1"/>
+  <line x1="650" y1="360" x2="700" y2="360" stroke="#000" stroke-width="1"/>
+  <line x1="650" y1="365" x2="700" y2="365" stroke="#000" stroke-width="1"/>
+  <line x1="650" y1="370" x2="700" y2="370" stroke="#000" stroke-width="1"/>
+  <line x1="650" y1="375" x2="700" y2="375" stroke="#000" stroke-width="1"/>
+  <line x1="650" y1="380" x2="700" y2="380" stroke="#000" stroke-width="1"/>
+  <line x1="650" y1="385" x2="700" y2="385" stroke="#000" stroke-width="1"/>
+  
+  <path d="M650,390 L700,390 L700,450 L650,450 Z" fill="none" stroke="#000000" stroke-width="1"/>
+  <line x1="650" y1="395" x2="700" y2="395" stroke="#000" stroke-width="1"/>
+  <line x1="650" y1="400" x2="700" y2="400" stroke="#000" stroke-width="1"/>
+  <line x1="650" y1="405" x2="700" y2="405" stroke="#000" stroke-width="1"/>
+  <line x1="650" y1="410" x2="700" y2="410" stroke="#000" stroke-width="1"/>
+  <line x1="650" y1="415" x2="700" y2="415" stroke="#000" stroke-width="1"/>
+  <line x1="650" y1="420" x2="700" y2="420" stroke="#000" stroke-width="1"/>
+  <line x1="650" y1="425" x2="700" y2="425" stroke="#000" stroke-width="1"/>
+  <line x1="650" y1="430" x2="700" y2="430" stroke="#000" stroke-width="1"/>
+  <line x1="650" y1="435" x2="700" y2="435" stroke="#000" stroke-width="1"/>
+  <line x1="650" y1="440" x2="700" y2="440" stroke="#000" stroke-width="1"/>
+  <line x1="650" y1="445" x2="700" y2="445" stroke="#000" stroke-width="1"/>
+  
+  <!-- Elevator -->
+  <rect x="750" y="150" width="40" height="300" fill="#d6d6d6" stroke="#000000" stroke-width="1" stroke-dasharray="5,3"/>
+  <line x1="750" y1="210" x2="790" y2="210" stroke="#000" stroke-width="1"/>
+  <line x1="750" y1="270" x2="790" y2="270" stroke="#000" stroke-width="1"/>
+  <line x1="750" y1="330" x2="790" y2="330" stroke="#000" stroke-width="1"/>
+  <line x1="750" y1="390" x2="790" y2="390" stroke="#000" stroke-width="1"/>
+  <text x="770" y="240" font-family="Arial" font-size="10" text-anchor="middle">ELEVATOR</text>
+  
+  <!-- Dimensions -->
+  <line x1="100" y1="470" x2="900" y2="470" stroke="#000" stroke-width="1" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+  <text x="500" y="485" font-family="Arial" font-size="12" text-anchor="middle">80'-0" BUILDING DEPTH</text>
+  
+  <line x1="50" y1="150" x2="50" y2="450" stroke="#000" stroke-width="1" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+  <text x="35" y="300" font-family="Arial" font-size="12" text-anchor="middle" transform="rotate(-90,35,300)">60'-0" BUILDING HEIGHT</text>
+  
+  <!-- CROSS SECTION -->
+  <text x="500" y="520" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle">CROSS SECTION</text>
+  
+  <!-- Building Outline -->
+  <rect x="250" y="550" width="500" height="300" fill="#d6d6d6" stroke="#000000" stroke-width="3"/>
+  
+  <!-- Floor Lines -->
+  <line x1="250" y1="610" x2="750" y2="610" stroke="#000" stroke-width="2"/>
+  <line x1="250" y1="670" x2="750" y2="670" stroke="#000" stroke-width="2"/>
+  <line x1="250" y1="730" x2="750" y2="730" stroke="#000" stroke-width="2"/>
+  <line x1="250" y1="790" x2="750" y2="790" stroke="#000" stroke-width="2"/>
+  
+  <!-- Floor Labels -->
+  <text x="230" y="590" font-family="Arial" font-size="12" text-anchor="end">Basement</text>
+  <text x="230" y="640" font-family="Arial" font-size="12" text-anchor="end">1st Floor</text>
+  <text x="230" y="700" font-family="Arial" font-size="12" text-anchor="end">2nd Floor</text>
+  <text x="230" y="760" font-family="Arial" font-size="12" text-anchor="end">3rd Floor</text>
+  <text x="230" y="820" font-family="Arial" font-size="12" text-anchor="end">4th Floor</text>
+  <text x="230" y="850" font-family="Arial" font-size="12" text-anchor="end">Roof</text>
+  
+  <!-- Roof Elements -->
+  <rect x="250" y="550" width="500" height="10" fill="#5f5f5f" stroke="#000000" stroke-width="1"/>
+  <rect x="350" y="542" width="100" height="18" fill="#5f5f5f" stroke="#000000" stroke-width="1"/>
+  <rect x="550" y="542" width="100" height="18" fill="#5f5f5f" stroke="#000000" stroke-width="1"/>
+  
+  <!-- Interior Walls -->
+  <line x1="350" y1="610" x2="350" y2="850" stroke="#000" stroke-width="1" stroke-dasharray="5,3"/>
+  <line x1="500" y1="610" x2="500" y2="850" stroke="#000" stroke-width="1" stroke-dasharray="5,3"/>
+  <line x1="650" y1="610" x2="650" y2="850" stroke="#000" stroke-width="1" stroke-dasharray="5,3"/>
+  
+  <!-- Interior Features -->
+  <!-- Parlor Floor Grand Living Room -->
+  <rect x="330" y="670" width="340" height="60" fill="none" stroke="#000000" stroke-width="1"/>
+  <text x="500" y="700" font-family="Arial" font-size="12" text-anchor="middle">PARLOR FLOOR (14' CEILING)</text>
+  <text x="500" y="715" font-family="Arial" font-size="10" text-anchor="middle">GRAND LIVING ROOM</text>
+  
+  <!-- Kitchen -->
+  <rect x="350" y="610" width="200" height="60" fill="none" stroke="#000000" stroke-width="1"/>
+  <text x="450" y="640" font-family="Arial" font-size="10" text-anchor="middle">KITCHEN</text>
+  
+  <!-- Master Bedroom -->
+  <rect x="330" y="730" width="200" height="60" fill="none" stroke="#000000" stroke-width="1"/>
+  <text x="430" y="760" font-family="Arial" font-size="10" text-anchor="middle">MASTER BEDROOM</text>
+  
+  <!-- Master Bath -->
+  <rect x="530" y="730" width="140" height="60" fill="none" stroke="#000000" stroke-width="1"/>
+  <text x="600" y="760" font-family="Arial" font-size="10" text-anchor="middle">MASTER BATH</text>
+  
+  <!-- Bedrooms -->
+  <rect x="330" y="790" width="140" height="60" fill="none" stroke="#000000" stroke-width="1"/>
+  <text x="400" y="820" font-family="Arial" font-size="10" text-anchor="middle">BEDROOM</text>
+  
+  <rect x="530" y="790" width="140" height="60" fill="none" stroke="#000000" stroke-width="1"/>
+  <text x="600" y="820" font-family="Arial" font-size="10" text-anchor="middle">BEDROOM</text>
+  
+  <!-- Home Theater -->
+  <rect x="350" y="550" width="200" height="60" fill="none" stroke="#000000" stroke-width="1"/>
+  <text x="450" y="580" font-family="Arial" font-size="10" text-anchor="middle">HOME THEATER</text>
+  
+  <!-- Wine Cellar -->
+  <rect x="550" y="550" width="150" height="60" fill="none" stroke="#000000" stroke-width="1"/>
+  <text x="625" y="580" font-family="Arial" font-size="10" text-anchor="middle">WINE CELLAR</text>
+  
+  <!-- HVAC Elements -->
+  <circle cx="300" cy="580" r="10" fill="#d6d6d6" stroke="#000000" stroke-width="1"/>
+  <text x="300" y="595" font-family="Arial" font-size="8" text-anchor="middle">MECH</text>
+  
+  <circle cx="300" cy="640" r="5" fill="#d6d6d6" stroke="#000000" stroke-width="1"/>
+  <circle cx="300" cy="700" r="5" fill="#d6d6d6" stroke="#000000" stroke-width="1"/>
+  <circle cx="300" cy="760" r="5" fill="#d6d6d6" stroke="#000000" stroke-width="1"/>
+  <circle cx="300" cy="820" r="5" fill="#d6d6d6" stroke="#000000" stroke-width="1"/>
+  <text x="315" cy="640" font-family="Arial" font-size="8">HVAC</text>
+  
+  <!-- Facade Detail -->
+  <rect x="250" y="670" width="15" height="60" fill="#916f59" stroke="#000000" stroke-width="1"/>
+  <rect x="250" y="730" width="15" height="60" fill="#916f59" stroke="#000000" stroke-width="1"/>
+  <rect x="250" y="790" width="15" height="60" fill="#916f59" stroke="#000000" stroke-width="1"/>
+  <rect x="250" y="610" width="15" height="60" fill="#916f59" stroke="#000000" stroke-width="1"/>
+  <rect x="250" y="550" width="15" height="60" fill="#916f59" stroke="#000000" stroke-width="1"/>
+  
+  <!-- Cornice Detail -->
+  <path d="M250,550 L235,550 L235,540 L265,540 L265,550 Z" fill="#5f5f5f" stroke="#000000" stroke-width="1"/>
+  
+  <!-- Dimensions -->
+  <line x1="250" y1="870" x2="750" y2="870" stroke="#000" stroke-width="1" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+  <text x="500" y="885" font-family="Arial" font-size="12" text-anchor="middle">40'-0" BUILDING WIDTH</text>
+  
+  <!-- Markers for Arrows -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#000"/>
+    </marker>
+  </defs>
+  
+  <!-- DETAIL SECTION - FACADE & CORNICE -->
+  <text x="500" y="920" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle">FACADE & CORNICE DETAIL</text>
+  
+  <!-- Facade Detail -->
+  <rect x="400" y="940" width="200" height="200" fill="#d6d6d6" stroke="#000000" stroke-width="2"/>
+  
+  <!-- Brownstone Facing -->
+  <rect x="400" y="940" width="15" height="200" fill="#916f59" stroke="#000000" stroke-width="1"/>
+  
+  <!-- Window -->
+  <rect x="400" y="990" width="15" height="50" fill="#a8cff0" stroke="#000000" stroke-width="1"/>
+  
+  <!-- Cornice Detail -->
+  <path d="M400,940 L380,940 L380,925 L420,925 L420,940 Z" fill="#5f5f5f" stroke="#000000" stroke-width="1"/>
+  <path d="M380,925 L395,915 L405,915 L420,925 Z" fill="#5f5f5f" stroke="#000000" stroke-width="1"/>
+  
+  <!-- Window Details -->
+  <rect x="400" y="990" width="2" height="50" fill="#c19a6b" stroke="none"/>
+  <rect x="413" y="990" width="2" height="50" fill="#c19a6b" stroke="none"/>
+  <rect x="400" y="1015" width="15" height="2" fill="#c19a6b" stroke="none"/>
+  
+  <!-- Brick Backing -->
+  <rect x="415" y="940" width="20" height="200" fill="#ce9a82" stroke="#000000" stroke-width="1"/>
+  
+  <!-- Labels -->
+  <text x="390" y="980" font-family="Arial" font-size="10" text-anchor="end">BROWNSTONE</text>
+  <text x="390" y="995" font-family="Arial" font-size="10" text-anchor="end">FACADE</text>
+  
+  <text x="390" y="935" font-family="Arial" font-size="10" text-anchor="end">DECORATIVE</text>
+  <text x="390" y="925" font-family="Arial" font-size="10" text-anchor="end">CORNICE</text>
+  
+  <text x="455" y="980" font-family="Arial" font-size="10" text-anchor="middle">BRICK</text>
+  <text x="455" y="995" font-family="Arial" font-size="10" text-anchor="middle">BACKING</text>
+  
+  <text x="470" y="1010" font-family="Arial" font-size="10">WOOD WINDOW</text>
+  <text x="470" y="1025" font-family="Arial" font-size="10">FRAME WITH</text>
+  <text x="470" y="1040" font-family="Arial" font-size="10">ALUMINUM</text>
+  <text x="470" y="1055" font-family="Arial" font-size="10">CLADDING</text>
+  
+  <line x1="415" y1="1010" x2="465" y2="1010" stroke="#000" stroke-width="1" stroke-dasharray="3,2"/>
+  
+  <!-- Interior Wall Structure -->
+  <rect x="435" y="940" width="165" height="200" fill="#d6d6d6" stroke="#000000" stroke-width="1"/>
+  <text x="520" y="1040" font-family="Arial" font-size="10" text-anchor="middle">INTERIOR WALL STRUCTURE</text>
+  <text x="520" y="1055" font-family="Arial" font-size="10" text-anchor="middle">WITH PLASTER FINISH</text>
+  
+  <!-- Dimensions -->
+  <line x1="380" y1="1150" x2="420" y2="1150" stroke="#000" stroke-width="1" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+  <text x="400" y="1165" font-family="Arial" font-size="10" text-anchor="middle">15"</text>
